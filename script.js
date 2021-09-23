@@ -82,7 +82,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                 })
               })
             } else if (result.isDenied) {
-              Swal.fire(`Yakin ga mau?`, '', 'error').then(function () {
+              Swal.fire(`Oh Ngga :)`, '', 'error').then(function () {
                 Swal.fire('Yaudah deh bye!')
               })
             }
